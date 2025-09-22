@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anime Magazine</title>
+  <style>
+    body {
+      background-image: url(https://w0.peakpx.com/wallpaper/159/849/HD-wallpaper-anime-city-girl-anime-girl-anime-artist-artwork-digital-art-cyberpunk.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    a {
+      color: #ffe053;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    a:hover {
+      color: rgb(120, 122, 241);
+      text-decoration: underline;
+    }
+
+    .oval {
+      max-width: 600px;
+      margin: 20px auto;
+      background-color: #ffe053;
+      border-radius: 50%;
+      padding: 10px 20px;
+      text-align: center;
+    }
+
+    .oval h1 {
+      font-size: 2em;
+      font-family: fantasy;
+      color: rgb(122, 120, 255);
+      margin: 0;
+    }
+
+    .horizontal-list {
+      text-align: center;
+      padding: 0;
+      margin: 20px 0;
+      list-style: none;
+    }
+
+    .horizontal-list li {
+      display: inline-block;
+      margin: 0 20px;
+    }
+
+    hr {
+      width: 80%;
+      margin: 20px auto;
+      border: 1px solid #ffe053;
+    }
+
+    .borders {
+      border: 5px solid #ffe053;
+      margin: 20px auto;
+      max-width: 1400px;
+      padding: 20px;
+    }
+
+
+    .poster-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr; 
+      gap: 20px;
+      justify-items: center;
+      align-items: start;
+    }
+
+    .col {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .Anime_poster img { width: 400px; }
+    .JJK_poster img,
+    .HxH_poster img { width: 500px; }
+    .slime img,
+    .your_name img { width: 300px; }
+
+    .poster-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    @media (max-width: 900px) {
+      .poster-container {
+        grid-template-columns: 1fr;
+      }
+    }
+     .Anime_poster:hover {
+      transform: scale(1.03);
+    }
+     .JJK_poster:hover {
+      transform: scale(1.03);
+    }
+     .HxH_poster:hover {
+      transform: scale(1.03);
+    }
+     .slime:hover {
+      transform: scale(1.03);
+    }
+     .your_name:hover {
+      transform: scale(1.03);
+    }
+  </style>
+</head>
+<body>
+  <div class="oval"> 
+    <h1>Animeclopedia</h1>
+  </div>
+
+  <ul class="horizontal-list">
+    <li><a href="#homepage">Homepage</a></li>
+    <li><a href="Authorpage.HTML">Authorpage</a></li>
+    <li><a href="Animestudios.HTML">Anime Studios</a></li>
+    <li><a href="Animerecos.HTML">Recommended Anime</a></li>
+    <li><a href="References.HTML">References</a></li>  
+    <li><a href="About.HTML">About</a></li>
+  </ul>
+
+  <hr>
+
+  <div class="borders">
+    <div class="poster-container">
+
+
+      <div class="Anime_poster">
+        <img alt="Anime Poster" src="https://i.pinimg.com/736x/55/47/a9/5547a9180c14d24ecb3e1ad9793e8fc2.jpg">
+      </div>
+
+
+      <div class="col">
+        <div class="JJK_poster">
+          <img alt="JJK Gif" src="https://www.icegif.com/wp-content/uploads/2024/08/jujutsu-kaisen-icegif-23.gif">
+        </div>
+        <div class="HxH_poster">
+          <img alt="HxH poster" src="https://i.pinimg.com/originals/9c/2b/56/9c2b5679e268164fa34931f16d877c94.gif">
+        </div>
+      </div>
+
+
+      <div class="col">
+        <div class="slime">
+          <img alt="Slime poster" src="https://m.media-amazon.com/images/M/MV5BM2IwMDM4MDgtZWU2Zi00YjA2LWJhOTItNGUzMWM1N2E4ZTk3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg">
+        </div>
+        <div class="your_name">
+          <img alt="Your name poster" src="https://media.tenor.com/nJ16vNG4YgEAAAAM/your-name.gif">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
