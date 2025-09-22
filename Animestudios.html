@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anime Magazine</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url("https://img.freepik.com/premium-photo/anime-city-street-scene-with-cherry-trees-neon-signs-generative-ai_958192-7647.jpg");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      font-family: Arial, sans-serif;
+      color: #fff;
+    }
+
+    h1 {
+      background-color: rgba(240, 128, 128, 0.85); 
+      text-align: center;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      padding: 15px;
+      border-radius: 8px;
+      max-width: 90%;
+      margin: 20px auto;
+    }
+
+    p {
+      text-align: center;
+      margin: 10px 0;
+    }
+
+    a:link {
+      color: #ffe053;
+      background-color: transparent;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:visited {
+      color: #ddd;
+    }
+
+    a:hover {
+      color: rgb(120, 122, 241);
+      text-decoration: underline;
+    }
+
+    a:active {
+      color: rgb(230, 120, 120);
+    }
+
+    hr {
+      max-width: 90%;
+      margin: 20px auto;
+      border: 1px solid rgb(230, 120, 120);
+    }
+
+
+    .studios-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .studios {
+      background: rgba(230, 120, 120, 0.9);
+      border-radius: 10px;
+      overflow: hidden;
+      flex: 1 1 calc(50% - 20px); 
+      max-width: 500px;
+      aspect-ratio: 16 / 9; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: transform 0.3s ease;
+    }
+
+    .studios img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; 
+    }
+
+    .studios:hover {
+      transform: scale(1.03);
+    }
+    
+    @media (max-width: 768px) {
+      .studios {
+        flex: 1 1 100%; 
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>List of Popular Anime Studios</h1>
+  <p><a href="SA_Arayat_Matibag.html">Homepage</a></p>
+  <hr>
+
+  <div class="studios-container">
+    <div class="studios">
+      <img alt="Mappa Studios" src="https://pbs.twimg.com/media/GQGEvl4XwAAB_83.jpg">
+    </div>
+    <div class="studios">
+      <img alt="Studio Ghibli" src="https://static0.colliderimages.com/wordpress/wp-content/uploads/2021/05/studio-ghibli-movies-ranked-social.jpg">
+    </div>
+    <div class="studios">
+      <img alt="Production I.G" src="https://vanishingtrooper.wordpress.com/wp-content/uploads/2012/10/production-ig-shows.jpg">
+    </div>
+    <div class="studios">
+      <img alt="Wit Studio" src="https://i.ytimg.com/vi/vRFXi1kFcs8/maxresdefault.jpg">
+    </div>
+    <div class="studios">
+      <img alt="A-1 Pictures" src="https://www.anmosugoi.com/wp-content/uploads/2020/05/12-1-scaled.jpg">
+    </div>
+  </div>
+</body>
+</html>

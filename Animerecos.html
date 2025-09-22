@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Anime Magazine</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    body {
+      background-image: url("https://t4.ftcdn.net/jpg/08/16/62/29/360_F_816622960_pTbtBvxsZHFFyn1fklAbGJebZwXbdzsH.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      background-color: rgba(38, 32, 211, 0.85); 
+      font-family: fantasy;
+      padding: 15px;
+      text-align: center;
+      border-radius: 8px;
+      max-width: 90%;
+      margin: 20px auto;
+    }
+
+    p {
+      text-align: center;
+      margin: 10px;
+    }
+
+    a {
+      color: #ffe053;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      color: rgb(120, 122, 241);
+      text-decoration: underline;
+    }
+    a:active {
+      color: rgb(255, 30, 30);
+    }
+
+    hr {
+      width: 80%;
+      border: 1px solid #ffe053;
+      margin: 20px auto;
+    }
+
+
+    .anime-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+
+ 
+    .col {
+      flex: 1 1 300px; 
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .col img {
+      width: 100%;
+      max-width: 350px;
+      height: 300px;
+      object-fit: cover; 
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+    }
+
+
+    .col img:hover {
+      transform: scale(1.03);
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Must Watch Anime</h1>
+  <p><a href="SA_Arayat_Matibag.HTML">Homepage</a></p>
+  <hr>
+
+  <div class="anime-container">
+    <div class="col">
+      <h3>Demon Slayer</h3>
+      <img alt="Demon Slayer" src="https://www.slashfilm.com/img/gallery/demon-slayers-box-office-success-proves-anime-is-here-to-help-save-movie-theaters/intro-1708967958.jpg">
+      <h3>Attack on TItan</h3>
+      <img alt="Attack on Titan" src="https://i.redd.it/gy8918f11p551.png">
+      <h3>Astra Lost in Space</h3>
+      <img alt="Astra Lost in Space" src="https://image.tmdb.org/t/p/original/axoN94TihHrVgmR0Xu9Bx7ETU0U.jpg">
+    </div>
+
+    <div class="col">
+      <h3>Dr. Stone</h3>
+      <img alt="Dr. Stone" src="https://e1.pxfuel.com/desktop-wallpaper/555/260/desktop-wallpaper-dr-stone-12-random-curiosity-dr-stone-stone-wars.jpg">
+      <h3>Classroom of the Elite</h3>
+      <img alt="Classroom of the Elite" src="https://comicbook.com/wp-content/uploads/sites/4/2025/07/Classroom-of-the-Elite-Season-4-Anime-Poster.jpg">
+      <h3>Kuroko's Basketball</h3>
+      <img alt="Kuroko's Basketball" src="https://i.pinimg.com/736x/05/07/24/050724708fe931233a55943aed49f36d.jpg">
+    </div>
+
+    <div class="col">
+      <h3>Haikyuu</h3>
+      <img alt="Haikyuu" src="https://m.media-amazon.com/images/I/71kCmOu0z4L.jpg">
+      <h3>Your Name</h3>
+      <img alt="Your Name" src="https://warnersallman.com/1280/680-kimi-no-na-wa-love-couple-your-name-mitsuha-miyamizu.jpg">
+      <h3>Assassination Classroom</h3>
+      <img alt="Assassination Classroom" src="https://i.pinimg.com/originals/50/0f/da/500fdad6fa5ca980392d1ec8d562a65f.png">
+    </div>
+  </div>
+</body>
+</html>
